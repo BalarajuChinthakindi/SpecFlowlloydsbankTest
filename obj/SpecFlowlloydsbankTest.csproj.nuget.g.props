@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/balu/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/balu/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/balu/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/16.5.0/build/netstandard1.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/16.5.0/build/netstandard1.0/Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/16.5.0/build/net40/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/16.5.0/build/net40/Microsoft.NET.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)specrun.runner/3.9.7/build/SpecRun.Runner.props" Condition="Exists('$(NuGetPackageRoot)specrun.runner/3.9.7/build/SpecRun.Runner.props')" />
+    <Import Project="$(NuGetPackageRoot)specflow.tools.msbuild.generation/3.9.8/build/SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('$(NuGetPackageRoot)specflow.tools.msbuild.generation/3.9.8/build/SpecFlow.Tools.MsBuild.Generation.props')" />
+    <Import Project="$(NuGetPackageRoot)specrun.specflow.3-9-0/3.9.7/build/SpecRun.SpecFlow.3-9-0.props" Condition="Exists('$(NuGetPackageRoot)specrun.specflow.3-9-0/3.9.7/build/SpecRun.SpecFlow.3-9-0.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter/3.17.0/build/net35/NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter/3.17.0/build/net35/NUnit3TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit/3.13.1/build/NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit/3.13.1/build/NUnit.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSpecRun_Runner Condition=" '$(PkgSpecRun_Runner)' == '' ">/Users/balu/.nuget/packages/specrun.runner/3.9.7</PkgSpecRun_Runner>
+    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">/Users/balu/.nuget/packages/bodi/1.5.0</PkgBoDi>
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">/Users/balu/.nuget/packages/nunit.consolerunner/3.15.0</PkgNUnit_ConsoleRunner>
+  </PropertyGroup>
+</Project>

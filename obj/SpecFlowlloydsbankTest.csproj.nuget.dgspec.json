@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/SpecFlowlloydsbankTest.csproj": {}
+  },
+  "projects": {
+    "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/SpecFlowlloydsbankTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/SpecFlowlloydsbankTest.csproj",
+        "projectName": "SpecFlowlloydsbankTest",
+        "projectPath": "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/SpecFlowlloydsbankTest.csproj",
+        "packagesPath": "/Users/balu/.nuget/packages/",
+        "outputPath": "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/balu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[100.0.4896.6000, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecRun.Runner": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

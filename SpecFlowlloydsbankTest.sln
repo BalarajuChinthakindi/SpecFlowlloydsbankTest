@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowlloydsbankTest", "SpecFlowlloydsbankTest.csproj", "{D5227ED2-FCC5-44FC-85B0-4807D0032C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Specrun|Any CPU = Specrun|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Specrun|Any CPU.ActiveCfg = Specrun|Any CPU
+		{D5227ED2-FCC5-44FC-85B0-4807D0032C51}.Specrun|Any CPU.Build.0 = Specrun|Any CPU
+	EndGlobalSection
+EndGlobal

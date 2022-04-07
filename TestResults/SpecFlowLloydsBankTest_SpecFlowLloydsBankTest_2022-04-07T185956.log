@@ -1,0 +1,150 @@
+﻿2022-04-07T18:59:55.4496730+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-04-07T18:59:55.4501650+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework clr40 in x64 mode execution started
+2022-04-07T18:59:55.4502170+01:00;VSTestExecutionThread;Info;TestAdapter Location: /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-04-07T18:59:55.4506750+01:00;VSTestExecutionThread;Info;Current UserName: 'balu', MachineName: 'Balarajus-Air'
+2022-04-07T18:59:56.0109780+01:00;VSTestExecutionThread;Info;SpecRun: running tests in /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowlloydsbankTest.dll
+2022-04-07T18:59:56.0113910+01:00;VSTestExecutionThread;Info;Output folder configured to "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/TestResults" (default)
+2022-04-07T18:59:56.0120560+01:00;VSTestExecutionThread;Info;Profile: SpecFlowLloydsBankTest
+2022-04-07T18:59:56.0743530+01:00;VSTestExecutionThread;Info;Log file path: /Users/balu/RiderProjects/SpecFlowlloydsbankTest/TestResults/SpecFlowLloydsBankTest_SpecFlowLloydsBankTest_2022-04-07T185956.log
+2022-04-07T18:59:56.0811600+01:00;Thread#18;Info;Checking activation
+2022-04-07T18:59:56.1832570+01:00;Thread#18;Info;Activated.
+2022-04-07T18:59:56.1838040+01:00;Thread#18;Info;Activation check completed
+2022-04-07T18:59:56.1838450+01:00;Thread#18;Info;Starting test run
+2022-04-07T18:59:56.3351790+01:00;Thread#18;Info;Discovering target: Default
+2022-04-07T18:59:56.3381350+01:00;Thread#18;Info;Discovering tests from assembly: /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowlloydsbankTest.dll
+2022-04-07T18:59:57.0536070+01:00;Thread#18;Info;Discovered tests from assembly: /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowlloydsbankTest.dll
+2022-04-07T18:59:57.0550680+01:00:Test Suite Dump
+2022-04-07T18:59:57.0571060+01:00:#0: SpecFlowLloydsBankTest/SpecFlowLloydsBankTest - 
+2022-04-07T18:59:57.0574920+01:00:#1: Default - 
+2022-04-07T18:59:57.0575570+01:00:#2: SpecFlowlloydsbankTest - 
+2022-04-07T18:59:57.0575630+01:00:#3: FindBranchDetails - 
+2022-04-07T18:59:57.1942610+01:00:#4: Find the last displayed branch location details with the given location and verify - TestAssembly:SpecFlowlloydsbankTest/Feature:FindBranchDetails/Scenario:Find+the+last+displayed+branch+location+details+with+the+given+location+and+verify
+2022-04-07T18:59:57.1944640+01:00:End: Test Suite Dump
+2022-04-07T18:59:57.2229490+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-07T18:59:57.2261040+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-04-07T18:59:57.2263980+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-04-07T18:59:57.2318340+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-04-07T18:59:57.2320290+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-04-07T18:59:57.2321650+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-04-07T18:59:57.2323110+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-04-07T18:59:57.2337150+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-04-07T18:59:57.2378560+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-04-07T18:59:57.2414490+01:00:Thread #0: creating new test thread executor for SpecFlowlloydsbankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-04-07T18:59:57.2442850+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2022-04-07T18:59:57.2446580+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2022-04-07T18:59:57.2455090+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2022-04-07T18:59:58.0511290+01:00:Thread#0:T:-> Loading plugin /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecRun.Runtime.SpecFlowPlugin.dll
+2022-04-07T18:59:58.0576740+01:00:Thread#0:T:-> Loading plugin /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowlloydsbankTest.dll
+2022-04-07T18:59:58.0583470+01:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowlloydsbankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2022-04-07T18:59:58.0635270+01:00:Thread#0:T:-> Using default config
+2022-04-07T18:59:58.5660070+01:00:Thread#0: Test #4/0 is started on thread #0
+2022-04-07T18:59:58.9100600+01:00:Thread#0:T:In BeforeScenario - GetDriver
+2022-04-07T18:59:59.2755280+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2888790+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2911240+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2918140+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2924350+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2930690+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2936920+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2942710+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2948720+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2954820+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2960630+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2966620+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2972500+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2978400+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2984790+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2990730+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.2996590+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3002760+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3008340+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3014190+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3020040+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3025750+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3032010+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3037780+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3043590+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3049540+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3054990+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3061040+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3066850+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3072640+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3078400+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3084660+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3090590+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3096760+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3102700+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3109040+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3115050+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3120950+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3126480+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3143490+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3150270+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3157020+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3162930+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3168540+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3174260+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3180190+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3185690+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3192220+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3218930+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3232150+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3238380+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3244140+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3250310+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.3256030+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5303850+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5324760+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5335930+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5344300+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5351710+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5362610+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5369460+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5375750+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5382430+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T18:59:59.5388860+01:00:Thread#0:T:Error: ConnectFailure (Connection refused)
+2022-04-07T19:00:04.5676250+01:00:Thread#0:T:The operation has timed out.
+2022-04-07T19:00:12.8664130+01:00:Thread#0:B:Given you are on the personal banking home page
+2022-04-07T19:00:12.9082480+01:00:Thread#0:T:In step1
+2022-04-07T19:00:13.6043100+01:00:Thread#0:T:done: FindBranchDetailsSteps.GivenYouAreOnThePersonalBankingHomePage() (0.7s)
+2022-04-07T19:00:13.6120340+01:00:Thread#0:B:When you click on branch finder link
+2022-04-07T19:00:13.6175760+01:00:Thread#0:T:In step2
+2022-04-07T19:00:16.1664490+01:00:Thread#0:T:done: FindBranchDetailsSteps.WhenYouClickOnBranchFinderLink() (2.5s)
+2022-04-07T19:00:16.1680540+01:00:Thread#0:B:And search with the word 'Halifax'
+2022-04-07T19:00:16.1811350+01:00:Thread#0:T:In step3
+2022-04-07T19:00:17.5103620+01:00:Thread#0:T:done: FindBranchDetailsSteps.WhenSearchWithTheWord("Halifax") (1.3s)
+2022-04-07T19:00:17.5123120+01:00:Thread#0:B:Then select the last displayed branch from the results
+2022-04-07T19:00:17.5180850+01:00:Thread#0:T:In step4
+2022-04-07T19:00:20.0232660+01:00:Thread#0:T:done: FindBranchDetailsSteps.ThenSelectTheLastDisplayedBranchFromTheResults() (2.5s)
+2022-04-07T19:00:20.0338200+01:00:Thread#0:B:And verify below branch details are displayed successfully
+2022-04-07T19:00:20.0342850+01:00:Thread#0:B:  --- table step argument ---
+2022-04-07T19:00:20.0345530+01:00:Thread#0:B:  | Location | Street          | City     | Postcode | SaturdayHrs | SundayHrs |
+2022-04-07T19:00:20.0348040+01:00:Thread#0:B:  | Keighley | 54 North Street | Keighley | BD21 3SJ | Closed      | Closed    |
+2022-04-07T19:00:20.8644940+01:00:Thread#0:T:done: FindBranchDetailsSteps.ThenVerifyBelowBranchDetailsAreDisplayedSuccessfully(<table>) (0.8s)
+2022-04-07T19:00:20.8803230+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-04-07T19:00:20.8805470+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-04-07T19:00:20.8806110+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2022-04-07T19:00:20.8807400+01:00:Thread#0:Scheduler: No more tests for thread
+2022-04-07T19:00:20.8846770+01:00:Thread#0:T:In AfterScenario
+2022-04-07T19:00:20.9845490+01:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 22.415113 seconds
+2022-04-07T19:00:21.0535130+01:00:Trying to cancel thread
+2022-04-07T19:00:21.0541010+01:00:Thread cancelled
+2022-04-07T19:00:21.0600140+01:00:Thread#-1:Scheduler: get next test for thread -1
+2022-04-07T19:00:21.0600690+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-04-07T19:00:21.0600730+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2022-04-07T19:00:21.0674430+01:00;Thread#18;Info;test run finished
+2022-04-07T19:00:21.0677320+01:00;Thread#18;Info;publishing test results
+2022-04-07T19:00:21.0787480+01:00;Thread#18;Info;test results published
+2022-04-07T19:00:21.0789220+01:00;Thread#18;Info;generating reports
+2022-04-07T19:00:21.1866860+01:00;Thread#18;Info;Starting external report generation process
+2022-04-07T19:00:24.0638490+01:00;Thread#18;Info;Successfully generated reports.
+2022-04-07T19:00:24.0688120+01:00;Thread#18;Info;Successfully generated reports
+2022-04-07T19:00:24.0778480+01:00:Total: 1
+2022-04-07T19:00:24.0806080+01:00:Succeeded: 1
+2022-04-07T19:00:24.0817750+01:00:Ignored: 0
+2022-04-07T19:00:24.0827360+01:00:Pending: 0
+2022-04-07T19:00:24.0830540+01:00:Skipped: 0
+2022-04-07T19:00:24.0839030+01:00:Failed: 0
+2022-04-07T19:00:24.1079860+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-04-07T19:00:24.1082580+01:00;VSTestExecutionThread;Info;adding Test Execution Report '/Users/balu/RiderProjects/SpecFlowlloydsbankTest/TestResults/SpecFlowLloydsBankTest_SpecFlowLloydsBankTest_2022-04-07T185956.html'
+========== End of log file ==========
