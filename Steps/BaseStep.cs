@@ -15,7 +15,6 @@ namespace SpecflowTest.Steps
         [BeforeScenario]
         public void GetDriver()
         {
-            Console.WriteLine("In BeforeScenario - GetDriver");
             String Browser = ConfigurationManager.AppSettings["Browser"];
             String AppURL = ConfigurationManager.AppSettings["ApplicationURL"];
             Driver = new DriverManager().InitialiseWebDriver(Browser);
@@ -29,7 +28,6 @@ namespace SpecflowTest.Steps
         [AfterScenario]
         public void AfterScenario()
         {
-            Console.WriteLine("In AfterScenario");
             Driver?.Quit();
         }
     }

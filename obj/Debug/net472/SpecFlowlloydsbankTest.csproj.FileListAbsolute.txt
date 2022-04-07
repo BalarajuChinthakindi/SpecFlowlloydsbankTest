@@ -183,3 +183,4 @@
 /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowPlusRunner/netcoreapp3.1/TechTalk.SpecRun.Framework.Utils.dll
 /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowPlusRunner/netcoreapp3.1/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
 /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowPlusRunner/netcoreapp3.1/TechTalk.SpecRun.VisualStudio.TestAdapter.dll.config
+/Users/balu/RiderProjects/SpecFlowlloydsbankTest/obj/Debug/net472/SpecFlowlloydsbankTest.csproj.CopyComplete

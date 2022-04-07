@@ -28,28 +28,24 @@ namespace SpecflowTest.Steps
     [Given(@"you are on the personal banking home page")]
     public void GivenYouAreOnThePersonalBankingHomePage()
     {
-        Console.WriteLine("In step1");
         Assert.That(Driver.Title.Equals(@"Lloyds Bank - Personal Banking, Personal Finances & Bank Accounts"));
     }
 
     [When(@"you click on branch finder link")]
     public void WhenYouClickOnBranchFinderLink()
     {
-        Console.WriteLine("In step2");
         HomePageObjects.ClickOnBranchDetailsLink();
     }
 
     [When(@"search with the word '(.*)'")]
     public void WhenSearchWithTheWord(string branchName)
     {
-        Console.WriteLine("In step3");
         FindBranchPageObjects.SearchForBranchName(branchName);
     }
 
     [Then(@"select the last displayed branch from the results")]
     public void ThenSelectTheLastDisplayedBranchFromTheResults()
     {
-        Console.WriteLine("In step4");
         FindBranchPageObjects.clickOnLastResult();
     }
 
