@@ -1,8 +1,0 @@
-﻿2022-04-07T18:58:54.7734760+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
-2022-04-07T18:58:54.7741080+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework clr40 in x64 mode execution started
-2022-04-07T18:58:54.7741610+01:00;VSTestExecutionThread;Info;TestAdapter Location: /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
-2022-04-07T18:58:54.7746240+01:00;VSTestExecutionThread;Info;Current UserName: 'balu', MachineName: 'Balarajus-Air'
-2022-04-07T18:58:55.3834920+01:00;VSTestExecutionThread;Info;SpecRun: running tests in /Users/balu/RiderProjects/SpecFlowlloydsbankTest/bin/Debug/net472/SpecFlowlloydsbankTest.dll
-2022-04-07T18:58:55.3840010+01:00;VSTestExecutionThread;Info;Output folder configured to "/Users/balu/RiderProjects/SpecFlowlloydsbankTest/TestResults" (default)
-2022-04-07T18:58:55.3846970+01:00;VSTestExecutionThread;Info;Profile: SpecFlowLloydsBankTest
-========== End of log file ==========

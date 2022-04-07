@@ -5,6 +5,7 @@ Execution instructions:
 
 To run from Windows:
  a. Go the SpecFlowlloydsbankTest directory and then look for runtests.cmd. Double click on this file.
+ b. Otherwise, go to the project folder in command prompt then type 'dotnet test' and enter
  b. If above does not work, open the command prompt and navigate to the folder containing runtests.cmd. Then type runtests.cmd and enter
  c. From Visual Studio. Load the project folder and build the project. Go to Terminal window and type 'dotnet test' and press enter
 
