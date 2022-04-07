@@ -6,15 +6,16 @@ Execution instructions:
 To run from Windows:
  a. Go the SpecFlowlloydsbankTest directory and then look for runtests.cmd. Double click on this file.
  b. If above does not work, open the command prompt and navigate to the folder containing runtests.cmd. Then type runtests.cmd and enter
- c. From Visual Studio. Load the project folder. In the terminal type - 'dotnet test' and enter
+ c. From Visual Studio. Load the project folder and build the project. Go to Terminal window and type 'dotnet test' and press enter
 
 To run from Mac:
-1. load the project folder into Rider IDE 
+1. Load the project folder into Rider IDE 
 2. Build the project
-3. Go to Terminal and type 'dotnet test' and enter
+3. Go to Terminal window and type 'dotnet test' and press enter
 
-Test results will be available under SpecFlowlloydsbankTest/TestResults folder. We do get log file for each run and Specrun html report. Both file names will have run timestamp appended in filename.
+Test results report:
+I am using SpecRun for report generation. Test results will be available under SpecFlowlloydsbankTest/TestResults folder. We do get log file for each run and Specrun html report. Both file names will have run timestamp appended in filename.
 
-Notes:
-1. Please go to SpecFlowlloydsbankTest/bin and delete all existing file under 'Debug' and 'Release' folder. This is especially resolves the issue if there is any issue of failing test runs due to cached test profile files and compiler files generated from previous runs/builds.
+Important notes:
+1. Please go to SpecFlowlloydsbankTest/bin and delete all existing files under 'Debug' and 'Release' folders. This especially resolves the issue if tests are not compiling or running due to cached test profile files and compiler files generated from previous runs/builds.
 2. I am using Chrome version 100.0.4896 which is the latest one. If it is not matching with the version do you have currently, please update it to current version.
